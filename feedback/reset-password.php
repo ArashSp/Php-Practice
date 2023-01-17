@@ -54,7 +54,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             if($stmt->execute()){
                 // Password updated successfully. Destroy the session, and redirect to login page
                 session_destroy();
-                header("location: index.php");
+                header("location: landing.php");
                 exit();
             } else{
                 echo "System Died !!!";
