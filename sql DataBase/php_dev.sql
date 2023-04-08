@@ -42,9 +42,7 @@ CREATE TABLE IF NOT EXISTS `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `name`, `email`, `body`, `date`) VALUES
-(1, 'Arash', 'a.sepahy25@gmail.com', 'THIS IS SO COOL OMG BEST THING EVER', '2023-01-11 14:46:28'),
-(4, 'Anonymous', 'nemigam@gmail.com', 'Sabzi polo BA MAHI \r\n\r\nDOEST DARIM SEPAHI', '2023-01-11 15:12:13'),
-(5, 'VOHAN WAJUDFOSGF', 'a.sepahy20@gmail.com', 'bime HAZARATT ABALFAZL', '2023-01-11 16:30:25');
+
 
 -- --------------------------------------------------------
 
